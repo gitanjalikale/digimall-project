@@ -1,0 +1,286 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(18, 14, 39);
+    height: 80px;
+    width: 100%;
+    
+}
+
+nav{
+   
+ text-align: center;
+    font-size: large;
+  margin-left: 30px;
+}
+
+.n1 {
+ list-style: none;
+ display: inline-flex;
+padding: 25px;
+margin-right: 20px;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo1{
+    float: left;
+    color: white;
+    font-style: italic;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#n1 li{
+    
+  position: relative;
+  background:rgb(18, 14, 39) ;
+  
+}
+#n1 ul li a{
+   
+    display: block;
+    
+   
+}
+#n1 ul ul{
+    position: absolute;
+visibility: hidden;
+top: 50px;
+list-style: none;
+
+text-align: center;
+
+font-size: 20px;
+
+height: 40px;
+width: 110px;
+
+}
+#n1 ul ul li{
+    padding: 10px 20px 0px 0px;
+}
+#n1 li:hover ul{
+    visibility: visible;
+}
+.search{
+   
+    height: 30px;
+    width: 200px;
+    background: white;
+border: none;
+color: #000;
+border-radius: 25px;
+margin-top: 25px;
+    margin-left: 150px;
+}
+/*.mySlides {display: none;}
+img {vertical-align: middle;}
+*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+.category{
+    margin: 70px 0px;
+}
+.col{
+    display: inline-block;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.col img{
+    width: 230px;
+    height: 250px;
+    margin: 10px;
+}
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+p,h4{
+    margin-left: 10px;
+    
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:black;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col:hover{
+    transform: translateY(-5px);
+}
+.offer img{
+height: 300px;
+width: 300px;
+}
+.offer img{
+     float: left;
+     margin-left: 90px;
+     margin-right: 100px;
+    
+}
+.offer .col2{
+   padding-left: 30px;
+   text-align: center; 
+   padding-bottom: 20px;
+
+}
+.offer .col3{
+    padding-top: 70px;
+  
+    height: 350px;
+}
+.offer{
+    background: white; 
+    padding: 30px 0;
+}
+.btn{
+    background: rgb(238, 70, 9);height: 30px;
+    width: 200px;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.cartbtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 10px;
+    border: 1px solid white;
+    border-radius: 15px ;
+    background: #f7260a;
+    color: white;
+    font-weight: bold;
+}
+.rating .fa{
+    color: #f7260a;
+    margin-left: 10px;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col4{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    height: 350x;
+    width: 300px;
+    
+}
+.testimonial .col4 img{
+    width: 70px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.testimonial .col4:hover{
+    transform: translateY(-10px);
+}
+.testimonial .row .col4 {
+    display: inline-block;
+    margin-left: 20px;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.1); ;
+}
+.fa.fa-quote-left{
+    font-size: 25px;
+    color: #f7260a;
+    margin-bottom: 20px;
+}
+.brands .col5 img{
+    height: 70px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.brands .col5{
+    display:inline-block;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(18, 14, 39);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+ 
+    margin-top: 30px;
+}
+footer .applogo img{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+   margin: 10px;
+}
+footer p{
+    color: #8a8a8a;
+}
+footer h3{
+    color: #fff;
+    margin-bottom:20px;
+}
+.footercol1 .footercol2 .footercol3 .footercol4{
+    min-width: 250PX;
+    margin-bottom: 20PX;
+    
+}
+.footercol1{
+    float: left;
+}
+
+.footercol2 {
+     height: 100px;
+     width: 1000px;
+    text-align: center;
+}
+.footercol3, .footercol4{
+     font-size: 20px;
+    text-align: center;
+   float: right;
+    padding-right: 40px;
+   padding-bottom: 200px;
+}
+ul{
+    list-style-type: none;
+}
+.logo2{
+    color: white;
+    font-style: italic;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 30px; 
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}

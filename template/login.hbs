@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="icon" type="image/png" href="image/logo.jpg">
+         <link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		form{
+			text-align: center;
+		border: 1px solid;
+		border-radius: 10px;
+		margin: 0 500px;
+		padding: 60px 0;
+		margin-top: 50px;
+		}
+		input{
+			margin-bottom: 10px;
+			border-color: white;
+			
+			border-radius: 2px;
+		}
+		h2{
+			padding-top: 70px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		button{
+			padding: 15px 100px;
+			color: white;
+			background: rgb(36, 2, 90);
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	{{>header}}
+		<h2>Registration Form</h2> 
+<form>
+	
+
+	<table>
+	Username:<input type="text" name="text" required placeholder="Username"><br><br>
+	
+	Password:<input type="text" name="text" required placeholder="Password"><br><br>
+	    <button><b>Login</b></button><br><br><a href="/register" style="color: red;">Forgotten Password</a>
+</table>
+</form>
+</body>
+</html>
